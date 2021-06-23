@@ -1,0 +1,6 @@
+bringSupplierNotification <- function(directory, full_list = TRUE){
+	if(!full_list) stop("Opportunity for full list only")
+	dta <- data.table(read.xlsx(paste0(directory, "")))[, .(
+	  CurrentPartNumber = "", SupplierDescription = "", SupplierUnit = "", SupplierProposedPrice = "", SupplierComment = "")]
+}
+

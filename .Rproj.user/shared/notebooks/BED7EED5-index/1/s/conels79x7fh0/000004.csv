@@ -1,0 +1,39 @@
+"0","library(plotly)"
+"2","package ‘plotly’ was built under R version 4.0.5"
+"2","Loading required package: ggplot2
+"
+"2","package ‘ggplot2’ was built under R version 4.0.5"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","
+Attaching package: ‘plotly’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    layout
+
+"
+"0","x <- c(1:100)"
+"0","random_y <- rnorm(100, mean = 0)"
+"0","data <- data.frame(x, random_y)"
+"0",""
+"0","fig <- plot_ly(data, x = ~x, y = ~random_y, type = 'scatter', mode = 'lines')"
+"0",""
+"0","fig"
